@@ -1,0 +1,11 @@
+@import  './variable';
+
+
+.headerclass{
+    background-color:$pink;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    font-weight: 500;
+}

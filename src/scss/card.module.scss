@@ -1,0 +1,52 @@
+@import  './variable';
+
+.external{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+
+    .container{
+        border: 1px solid black;
+        width: 15rem;
+        min-width: 12rem;
+        text-align: center;
+        margin: 1rem;
+        border-radius: 2rem;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+        .resim{
+            border-radius: 3rem;
+            padding: 1rem;
+        }
+        .isim{
+            color: green;
+        }
+        .meslek{
+            color: red;
+            margin: 0.4rem;
+        }
+        .but1{
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            margin-right: 0.5rem;
+            background-color: aquamarine;
+            border: none;
+        }
+        .but2{
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            margin-left: 0.5rem;
+            background-color: aquamarine;
+            border: none;
+        }
+
+
+    }
+}
+
+
